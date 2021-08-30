@@ -1,0 +1,64 @@
+    # Project definitions (do not edit)
+Task: PE5
+scorer: HM
+date: Oct20
+multianimalproject: true
+
+    # Project path (change when moving around)
+project_path: /PE5-HM-2020-10-20
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? /PE5-HM-2020-10-20/videos/2020-10-07_09-36-59_n=5,OF,10min_2-converted_cropped.mp4
+  : crop: 0, 400, 0, 400
+individuals:
+- m1
+- m2
+- m3
+- m4
+- m5
+uniquebodyparts: []
+multianimalbodyparts:
+- snout
+- tail
+skeleton:
+- - snout
+  - tail
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 30
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 1
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining: true
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+video_sets_original:
+  ? /PE5-HM-2020-10-20/videos/2020-10-07_09-36-59_n=5,OF,10min_2-converted.mp4
+  : crop: 0, 1280, 0, 720

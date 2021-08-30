@@ -1,0 +1,5 @@
+model_checkpoint_path: "/home/grads/l/larcwind/Desktop/Codes/DeepLabCut-master/PE5-HM-2020-10-20/dlc-models/iteration-0/PE5Oct20-trainset95shuffle1/train/snapshot-200000"
+all_model_checkpoint_paths: "/home/grads/l/larcwind/Desktop/Codes/DeepLabCut-master/PE5-HM-2020-10-20/dlc-models/iteration-0/PE5Oct20-trainset95shuffle1/train/snapshot-50000"
+all_model_checkpoint_paths: "/home/grads/l/larcwind/Desktop/Codes/DeepLabCut-master/PE5-HM-2020-10-20/dlc-models/iteration-0/PE5Oct20-trainset95shuffle1/train/snapshot-100000"
+all_model_checkpoint_paths: "/home/grads/l/larcwind/Desktop/Codes/DeepLabCut-master/PE5-HM-2020-10-20/dlc-models/iteration-0/PE5Oct20-trainset95shuffle1/train/snapshot-150000"
+all_model_checkpoint_paths: "/home/grads/l/larcwind/Desktop/Codes/DeepLabCut-master/PE5-HM-2020-10-20/dlc-models/iteration-0/PE5Oct20-trainset95shuffle1/train/snapshot-200000"
